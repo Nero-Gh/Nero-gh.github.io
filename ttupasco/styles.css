@@ -31,6 +31,7 @@ nav {
     background: #4185f4;
     position: relative;
     font-size: 10px;
+    width: 100vw;
 }
 
 .logo {
@@ -106,7 +107,7 @@ nav {
 }
 
 .news-header::before {
-    content: " ";
+    content: "";
     width: 0;
     position: absolute;
     border-width: 31px;
@@ -120,17 +121,17 @@ nav {
     right: -30px;
 }
 
+
 .news-update {
-    height: 32px;
-    /* background: #FFEB3B; */
+    height: 2em;
+    background: #FFEB3B;
     position: relative;
     color: #757575;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
     align-items: center;
-    left: 5px;
     overflow: hidden;
 
 }
@@ -157,7 +158,6 @@ nav {
 .banner-text-container {
     width: 95%;
     margin: 50px 0;
-
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -221,6 +221,8 @@ nav {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 100%;
+    /* margin: 0 auto; */
 }
 
 
