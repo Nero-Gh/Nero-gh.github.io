@@ -22,10 +22,10 @@ li {
 
 img {
     width: 100%;
-    height: 100%;
 }
 
 /* mobile styling */
+
 
 nav {
     background: #4185f4;
@@ -41,7 +41,7 @@ nav {
 .toggle {
     position: absolute;
     top: 7px;
-    right: 5%;
+    right: 10px;
     font-size: 3.4em;
     color: #1a1919;
 }
@@ -53,7 +53,8 @@ nav {
 }
 
 .nav-list.active {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav-list.active li {
@@ -65,13 +66,24 @@ nav {
 }
 
 .nav-list .nav-item .nav-link {
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     color: #111;
 }
 
-.nav-item:hover {
-    background-color: #5fb2d8;
+.nav-item::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    text-align: center;
+    background: #FFEB3B;
+    margin: 0 auto;
+    transition: .2s ease-in;
+}
+
+.nav-item:hover::after {
+    width: 110%;
 }
 
 .news-wrapper {
@@ -88,7 +100,7 @@ nav {
     font-style: italic;
     letter-spacing: 2px;
     color: #f2f2f2;
-    padding: 5px;
+    padding: 4.2px 0 4.2px 4.2px;
     z-index: 2;
 }
 
@@ -96,7 +108,7 @@ nav {
     content: " ";
     width: 0;
     position: absolute;
-    border-width: 32px;
+    border-width: 31px;
     border-style: solid;
     top: 0;
     z-index: -1;
@@ -104,13 +116,12 @@ nav {
 
 .news-header::before {
     border-color: #dd2d2d transparent transparent transparent;
-    right: -32px;
+    right: -30px;
 }
 
 .news-update {
     height: 32px;
-    /* background: #9ddbf8; */
-    background: #fff;
+    /* background: #FFEB3B; */
     position: relative;
     color: #757575;
     text-transform: uppercase;
@@ -149,7 +160,6 @@ nav {
     display: flex;
     flex-direction: column;
     align-content: center;
-    position: relative;
 }
 
 .banner-text-container .banner-header {
@@ -174,6 +184,10 @@ nav {
     padding-top: 20px;
 }
 
+.banner-img {
+    width: 100%;
+}
+
 
 .faculty-title {
     width: 95%;
@@ -191,13 +205,13 @@ nav {
 
 .faculty-title h3::after {
     content: "";
-    width: 35%;
+    width: 28%;
     margin: 0 auto;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    border-bottom: 1px solid #757575;
+    border-bottom: 1px solid #4185F4;
 }
 
 .faculty-container {
@@ -275,5 +289,182 @@ nav {
 .faculty-card-header h3 {
     font-size: 2rem;
     color: #757575;
+}
 
+.about-us-container {
+    width: 100%;
+}
+
+.about-us-title {
+    width: 95%;
+    margin: 30px auto 50px auto;
+}
+
+.about-us-title h3 {
+    font-size: 25px;
+    color: #757575;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.about-us-title h3::after {
+    content: "";
+    width: 20%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #4185F4;
+}
+
+.about-us-card {
+    width: 25rem;
+    height: 30rem;
+    padding: 20px;
+    margin: 10px auto;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.171);
+    transform: scale(0.9);
+    transition: transform .3s ease-in;
+}
+
+.about-us-card:hover {
+    transform: scale(1);
+}
+
+.about-us-card-img {
+    width: 10rem;
+    height: 10rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.171);
+    border-radius: 50%;
+    margin: 30px auto 20px auto;
+}
+
+.about-us-card-img img {
+    border-radius: 50%;
+}
+
+.about-us-card-title {
+    font-size: 1.5rem;
+    color: #757575;
+}
+
+.about-us-card-body {
+    margin-top: 30px;
+}
+
+.about-us-card-body h4 {
+    text-align: left;
+    font-size: 1.5rem;
+    color: #757575;
+    padding-top: 10px;
+}
+
+.footer-text {
+    font-size: 16px;
+    color: #757575;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+@media screen and (min-width:780px) {
+
+
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+    }
+
+    .nav-list .nav-item .nav-link {
+        display: block;
+        padding: 0 18px;
+    }
+
+
+    .toggle {
+        display: none;
+    }
+
+    .news-header {
+        padding: 3.9px 0 3.9px 30px;
+    }
+
+    .wrapper {
+        margin: 0 20px;
+    }
+
+
+    .banner-container {
+        display: flex;
+        margin-top: 35px;
+    }
+
+    .banner-text-container {
+        width: 60%;
+    }
+
+    .banner-text-container .banner-text p {
+        text-align: left;
+    }
+
+
+    .banner-img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .banner-text-container .banner-header {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .faculty-title h3::after {
+        width: 20%;
+    }
+
+    .faculty-container {
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .about-us-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-us-card {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width:853px) {
+    .banner-text-container .banner-header {
+        margin-top: 40px;
+    }
+
+    .banner-container {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .banner-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-img img {
+        width: 90%;
+    }
 }
