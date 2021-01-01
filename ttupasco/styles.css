@@ -44,6 +44,7 @@ nav {
     right: 10px;
     font-size: 3.4em;
     color: #ebe8e8;
+    z-index: 1000;
 }
 
 .nav-list {
@@ -155,10 +156,12 @@ nav {
 
 .banner-text-container {
     width: 95%;
-    margin: 50px auto 0 auto;
+    margin: 50px 0;
+
     height: 400px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-content: center;
 }
 
