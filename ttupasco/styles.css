@@ -43,6 +43,7 @@ nav {
 .logo {
     width: 15em;
     padding-left: 1.5em;
+    cursor: pointer;
 }
 
 .toggle {
@@ -131,7 +132,7 @@ nav {
 
 .news-update {
     height: 1.92em;
-    /* background: #FFEB3B; */
+    background: #FFEB3B;
     position: relative;
     color: #757575;
     text-transform: uppercase;
