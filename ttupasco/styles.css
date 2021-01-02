@@ -133,7 +133,8 @@ nav {
 
 
 .news-update {
-    height: 1.95em;
+    height: 30px;
+    white-space: nowrap;
     background-color: #FFEB3B;
     position: relative;
     color: #757575;
