@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
 /* reset */
 *,
 *::after,
@@ -10,6 +13,8 @@
 /* base style */
 :root {
     font-size: 10px;
+    --raleway-500: "Raleway";
+    --notosanstc-400: "Noto Sans TC";
 }
 
 a {
@@ -31,7 +36,8 @@ nav {
     background: #4185f4;
     position: relative;
     font-size: 10px;
-    width: 100vw;
+    width: 100%;
+
 }
 
 .logo {
@@ -71,6 +77,7 @@ nav {
     font-size: 18px;
     text-transform: uppercase;
     color: #111;
+    font-weight: 100;
 }
 
 .nav-item::after {
@@ -123,8 +130,8 @@ nav {
 
 
 .news-update {
-    height: 2em;
-    background: #FFEB3B;
+    height: 1.92em;
+    /* background: #FFEB3B; */
     position: relative;
     color: #757575;
     text-transform: uppercase;
@@ -204,6 +211,7 @@ nav {
     text-align: center;
     position: relative;
     padding-bottom: 8px;
+    font-family: var(--notosanstc-400);
 }
 
 .faculty-title h3::after {
@@ -233,30 +241,14 @@ nav {
     flex-direction: column;
     margin: 20px auto;
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.171);
-    -webkit-transition: .2s ease;
-    -moz-transition: .2s ease;
-    -ms-transition: .2s ease;
-    -o-transition: .2s ease;
     position: relative;
     transform: scale(1);
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
 }
 
 .faculty-card:hover {
     transform: scale(1.1);
     transition: transform .3s;
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
-    -webkit-transition: transform .3s;
-    -moz-transition: transform .3s;
-    -ms-transition: transform .3s;
-    -o-transition: transform .3s;
 }
 
 
@@ -294,6 +286,9 @@ nav {
 .faculty-card-header h3 {
     font-size: 2rem;
     color: #757575;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
 }
 
 .about-us-container {
@@ -373,6 +368,51 @@ nav {
     color: #757575;
     text-align: center;
     margin-top: 30px;
+}
+
+/* faculty page styling */
+
+.faculty-banner {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+.faculty-banner .faculty-banner-img {
+    height: 100%;
+    position: relative;
+}
+
+.faculty-banner-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.faculty-banner-img img {
+    height: inherit;
+}
+
+.faculty-banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.faculty-banner-text h1 {
+    font-size: 4rem;
+    white-space: nowrap;
+    text-align: center;
+    color: #f2f2f2;
+    font-weight: 700;
+    font-family: var(--raleway-500);
+    text-shadow: 2px 3px 4px 3px rgba(0, 0, 0, 0.6);
 }
 
 
