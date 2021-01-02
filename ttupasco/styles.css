@@ -326,6 +326,7 @@ nav {
 .about-us-card {
     width: 25rem;
     height: 30rem;
+    padding-top: 10px;
     margin: 10px auto;
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.171);
     transform: scale(0.9);
@@ -357,7 +358,7 @@ nav {
 
 .about-us-card-body {
     border-top: 1px solid rgba(0, 0, 0, 0.171);
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .about-us-card-body h4 {
