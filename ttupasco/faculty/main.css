@@ -211,12 +211,13 @@ nav {
     font-size: 2rem;
     font-family: var(--notosanstc-400);
     position: relative;
+    text-transform: uppercase;
 }
 
 .department-hnd-title::after {
     content: "";
     width: 15%;
-    margin: 0 auto;
+    margin: 0 auto -5px auto;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -238,18 +239,16 @@ nav {
     border: 2px solid #97b6e7;
     background: #fff;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .levels button:hover {
     border-color: #FFEB3B;
-}
 
-.levels button:active {
-    border-color: #dd2d2d;
 }
 
 
-.hnd-levels .levels button a {
+.hnd-levels .levels a button {
     color: #555454;
     font-family: var(--raleway-500);
     font-size: 1.8rem;
