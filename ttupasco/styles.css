@@ -231,6 +231,7 @@ nav {
 
 .faculty-container {
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
@@ -307,6 +308,7 @@ nav {
 .about-us-title h3 {
     font-size: 25px;
     color: #757575;
+    font-family: var(--notosanstc-400);
     font-weight: 400;
     text-align: center;
     position: relative;
@@ -424,9 +426,10 @@ nav {
 }
 
 
-@media screen and (min-width:780px) {
+/* department styling */
 
 
+@media screen and (min-width:768px) {
     .main-nav {
         display: flex;
         justify-content: space-between;
