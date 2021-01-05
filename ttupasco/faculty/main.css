@@ -193,6 +193,8 @@ nav {
 
 .footer-text {
     font-size: 16px;
+    font-family: var(--raleway-5000);
+    font-weight: 100;
     color: #757575;
     text-align: center;
 }
@@ -270,6 +272,14 @@ nav {
     margin-top: 20px;
     font-size: 1.4rem;
     color: #4185F4;
+}
+
+.download-files a {
+    color: #4f6486;
+}
+
+.download-files a:active {
+    color: #dd2d2d;
 }
 
 .download-files a i {
