@@ -210,7 +210,8 @@ nav {
 
 .faculty-title h3 {
     font-size: 25px;
-    color: #757575;
+    /* color: #757575; */
+    color: #196c92;
     font-weight: 400;
     text-align: center;
     position: relative;
@@ -307,7 +308,8 @@ nav {
 
 .about-us-title h3 {
     font-size: 25px;
-    color: #757575;
+    /* color: #757575; */
+    color: #196c92;
     font-family: var(--notosanstc-400);
     font-weight: 400;
     text-align: center;

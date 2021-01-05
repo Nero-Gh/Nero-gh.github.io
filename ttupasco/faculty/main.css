@@ -208,6 +208,7 @@ nav {
 
 .department-container .department-hnd-title {
     text-align: center;
+    color: #196c92;
     font-size: 2rem;
     font-family: var(--notosanstc-400);
     position: relative;
@@ -261,6 +262,10 @@ nav {
     font-weight: 500;
 }
 
+.pasco-container h2 {
+    color: #196c92;
+}
+
 .download-files {
     margin-top: 20px;
     font-size: 1.4rem;
@@ -269,6 +274,11 @@ nav {
 
 .download-files a i {
     margin-left: 20px;
+}
+
+.links {
+    margin: 20px 0;
+    font-size: 1.4rem
 }
 
 
