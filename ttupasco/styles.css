@@ -413,19 +413,18 @@ nav {
 }
 
 .btn-up {
-    position: sticky;
-    padding: 14px 16px;
+    position: fixed;
     bottom: 40px;
-    left: 85%;
-    width: 50px;
-    height: 50px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
     background-color: #4185f4;
-    line-height: 50px;
+    line-height: 40px;
     text-align: center;
     border-radius: 50%;
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
     color: #fff;
-    font-size: 22px;
+    font-size: 18px;
     z-index: 1000;
 }
 
