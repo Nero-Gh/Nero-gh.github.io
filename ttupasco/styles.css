@@ -413,7 +413,8 @@ nav {
 }
 
 .btn-up {
-    position: fixed;
+    position: sticky;
+    padding: 10px 13px;
     bottom: 30px;
     left: 5px;
     width: 40px;
