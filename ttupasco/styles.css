@@ -414,8 +414,8 @@ nav {
 
 .btn-up {
     position: fixed;
-    bottom: 40px;
-    right: 20px;
+    bottom: 30px;
+    left: 5px;
     width: 40px;
     height: 40px;
     background-color: #4185f4;
