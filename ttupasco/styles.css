@@ -150,7 +150,8 @@ nav {
 .news-update {
     height: 31.3px;
     white-space: nowrap;
-    background-color: #FFEB3B;
+    /* background-color: #FFEB3B; */
+    background: #fff;
     position: relative;
     color: #757575;
     text-transform: uppercase;
