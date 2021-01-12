@@ -9,6 +9,7 @@ togglebtn.addEventListener('click', () => {
 
 window.addEventListener('load', () => {
     setTimeout(function () {
-        preloader.style.display = 'none';
+        preloader.style.transform = 'translateX(-100%)';
+        preloader.style.transition = 'transform 0.5s';
     }, 1300);
 });
