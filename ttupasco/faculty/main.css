@@ -252,6 +252,7 @@ nav {
     border: 2px solid #97b6e7;
     background: #fff;
     border-radius: 5px;
+    outline: none;
     cursor: pointer;
 }
 
