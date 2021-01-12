@@ -10,5 +10,5 @@ togglebtn.addEventListener('click', () => {
 window.addEventListener('load', () => {
     setTimeout(function () {
         preloader.style.display = 'none';
-    }, 2000);
+    }, 1300);
 });
