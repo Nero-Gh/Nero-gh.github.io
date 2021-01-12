@@ -48,7 +48,7 @@ img {
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.95);
+    background: rgba(0, 0, 0, 0.96);
     z-index: 99999;
 }
 
@@ -58,10 +58,11 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
 
 .load1 i {
-    color: #19327e;
+    color: #1A337E;
     font-size: 45px;
     animation: rotating 1.5s infinite linear;
 }
