@@ -19,7 +19,7 @@ const Hero = () => {
             variants={fadeIn("right", "tween", 0.2, 1)}
             className="primaryText"
           >
-            Hey There!, <br /> I'm Bismark
+            Hey There!, <br /> I'm Bismark Kadogbe
           </motion.span>
           <motion.span
             variants={fadeIn("left", "tween", 0.2, 1)}
@@ -35,7 +35,7 @@ const Hero = () => {
         >
           <motion.img
             variants={slideIn("right", "tween", 0.2, 1)}
-            src="./person.png"
+            src="./bismark.png"
             alt=""
           />
         </motion.div>
@@ -55,7 +55,7 @@ const Hero = () => {
             variants={fadeIn("right", "tween", 0.2, 1)}
             className={css.experience}
           >
-            <div className="primaryText">10</div>
+            <div className="primaryText">4</div>
             <div className="secondaryText">
               <div>Years</div>
               <div>Experience</div>

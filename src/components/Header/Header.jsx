@@ -1,13 +1,20 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import css from "./Header.module.scss";
 import { BiMenuAltLeft, BiPhoneCall } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { getMenuStyles, headerVariants } from "../../utils/motion";
 import useHeaderShadow from "../../hooks/useHeaderShadow";
+import useOutSideAlerter from "../../hooks/useOutsideAlerter";
 
 const Header = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpened, setMenuOpened] = useState(false);
   const headerShadow = useHeaderShadow();
+  const menuRef = useRef();
+
+  useOutSideAlerter({
+    menuRef,
+    setMenuOpened,
+  });
   return (
     <motion.div
       initial="hidden"
@@ -20,20 +27,21 @@ const Header = () => {
       <div className={`flexCenter innerWidth ${css.container}`}>
         <div className={css.name}>Bismark</div>
         <ul
+          ref={menuRef}
           className={`flexCenter ${css.menu}`}
-          style={getMenuStyles(menuOpen)}
+          style={getMenuStyles(menuOpened)}
         >
           <li>
-            <a href="">Services</a>
+            <a href="#services">Services</a>
           </li>
           <li>
-            <a href="">Experience</a>
+            <a href="#experience">Experience</a>
           </li>
           <li>
-            <a href="">Portfolio</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="">Testimonial</a>
+            <a href="#testimonial">Testimonial</a>
           </li>
           <li className={`flexCenter ${css.phone}`}>
             <p>+233 247 642 813</p>
@@ -43,7 +51,7 @@ const Header = () => {
         {/* for medium and small sceen */}
         <div
           className={css.menuIcon}
-          onClick={() => setMenuOpen((prev) => !prev)}
+          onClick={() => setMenuOpened((prev) => !prev)}
         >
           <BiMenuAltLeft size={30} />
         </div>

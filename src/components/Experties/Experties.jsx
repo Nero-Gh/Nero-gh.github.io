@@ -13,6 +13,7 @@ const Experties = () => {
       viewport={{ once: false, amount: 0.25 }}
       className={css.wrapper}
     >
+      <a href="" className="anchor" id="services"></a>
       <div
         className={`paddings yPaddings flexCenter innerWidth ${css.container}`}
       >
@@ -48,7 +49,7 @@ const Experties = () => {
           })}
           <div className={`flexCenter ${css.stats}`}>
             <div className={`flexCenter ${css.stat}`}>
-              <span className="primaryText">100+</span>
+              <span className="primaryText">500+</span>
               <span className="secondaryText">Project Completed</span>
             </div>
             <div className={`flexCenter ${css.stat}`}>

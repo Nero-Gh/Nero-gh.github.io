@@ -4,13 +4,13 @@ import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
     name: "Website Design ",
-    projects: "35+",
+    projects: "100+",
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
     name: "Web Application Development",
-    projects: "21+",
+    projects: "20+",
     icon: CiMobile1,
     bg: "#EEC048",
   },
@@ -24,96 +24,70 @@ export const projectExperience = [
 
 export const WhatDoIHelp = [
   "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
 ];
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    place: "MGA Consulting Ltd",
+    tenure: "Dec 2021 - Aug 2022",
+    role: "IT Manager",
+    detail: `•	Lead the optimum utilization and maintain all IT platforms and systems for business growth.•	
+•	and many more...
+    `,
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    place: "MGA PRIME PROPERTIES Ltd",
+    tenure: "Dec 2021 - Aug 2022",
+    role: "IT Manager",
+    detail: `
+    •	 In charge of hardware and software maintenance, installation and troubleshooting/repair.
+   •	and many more...
+     `,
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    place: "Supreme Trust Insurance Brokers",
+    tenure: "Dec 2021 - Aug 2022",
+    role: "IT Assistant",
+    detail: `•	To develop and manage online, and back-end platforms to achieve company objectives. and many more
+      `,
   },
 ];
 
 export const comments = [
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Mike Demosi",
+    post: "CEO",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "We've received so many compliments on our new website and graphics, and it's all thanks to this company. Their team is a pleasure to work with, and they have a talent for creating designs that are both beautiful and functional",
+    img: "./profile.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "David Ameho",
+    post: "Accountant",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "I am blown away by the website and graphic design work done by this Mr. Bismark. He truly has a talent for creating beautiful and functional designs that perfectly capture the essence of our brand.",
+    img: "./profile.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Harry Asmah",
+    post: "Human Resource Manager",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Working with this guy was a pleasure from start to finish. His work is professional, responsive, and truly talented. He took the time to understand our needs and created a website and graphics that exceeded our expectations.",
+    img: "./profile.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Eugene Ben",
+    post: "Accountant",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "I can't recommend this guy enough! he has an eye for design that is truly unparalleled. Our new website and graphics have helped us stand out from our competitors and drive more business.",
+    img: "./profile.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Ben Darko",
+    post: "CEO",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "If you're looking for a website and graphic design company that will go above and beyond to meet your needs, look no further. This company is dedicated to creating beautiful, functional designs that will help your business succeed.",
+    img: "./profile.png",
   },
 ];
 
